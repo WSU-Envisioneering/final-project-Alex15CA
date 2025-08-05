@@ -1,1 +1,27 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header, footer{
+    padding: 2rem;
+    text-align: center;
 
+}
+main{
+   border: 4px;
+   border-color: beige;
+   border-style: solid;
+}
+section{
+    display: grid;
+    grid-template-areas: "Image Form";
+}
+
+ img{
+    grid-area: Image;
+    width: 300px;
+ }
+
+ .form{
+    grid-area: Form;
+ }
